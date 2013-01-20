@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>DamageRecorder</Name>
+		<Author>by JS</Author>
+		<Version>v1.0</Version>    		
+	</Information>
+	<Package>JSPlugins.DamageRecorder.main</Package>	
+</Plugin>
