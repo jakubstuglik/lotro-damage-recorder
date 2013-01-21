@@ -11,9 +11,13 @@ function combatChatReceived(sender, args)
 			local dmg = string.sub(rpMess,numberIdxS,numberIdxE);
 			dmg = string.gsub(dmg,",","");
 			local dmgN = tonumber(dmg);
-			DR["dmgVal"] = DR["dmgVal"] + dmgN;
-			DR["dmgValLbl"]:SetText(L["dmgValLblText"].." "..DR["dmgVal"]);
+			updateDmgVal(DR["dmgVal"] + dmgN);			
 		end
 		-- FIXME Locale				
 	end;
+end;
+
+function updateDmgVal(newVal)
+	DR["dmgVal"] = newVal;
+	DR["dmgValLbl"]:SetText(L["dmgValLblText"].." "..DR["dmgVal"]);
 end;

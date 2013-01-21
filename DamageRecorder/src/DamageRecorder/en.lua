@@ -5,6 +5,7 @@ _G.L = {};
 -- commands
 L["cmdToggleVisibility"] = "vis";
 
-L["winText"] = "Damage Recorder for";
+L["winText"] = "DR for";
 L["dmgValLblText"] = "Overall damage dealt:";
+L["dmgResetButtonText"] = "Reset damage";
 

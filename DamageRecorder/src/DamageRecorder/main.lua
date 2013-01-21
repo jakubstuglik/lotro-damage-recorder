@@ -1,5 +1,6 @@
 -- Damage Recorder LOTRO plugin
 -- written by Jakub Stuglik
+-- Main program file
 
 import "Turbine";
 import "Turbine.Gameplay";
