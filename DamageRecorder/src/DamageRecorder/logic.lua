@@ -1,6 +1,7 @@
 -- Logic file
 
 --[name] scored a critical hit with [skill/attack] on [creature] for 1,946 [Westernesse/Beleriand] damage to Morale
+-- FIXME JS Internationalization
 
 function combatChatReceived(sender, args)
 	local rpMess = args.Message;
