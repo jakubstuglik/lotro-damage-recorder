@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>manager</Name>
+		<Author>Cearbhall</Author>
+		<Version>0.3</Version>
+	</Information>
+	<Package>Shady.Manager</Package>
+	<Configuration Apartment="ShadyManager" />
+</Plugin>

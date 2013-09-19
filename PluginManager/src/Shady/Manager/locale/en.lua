@@ -1,0 +1,9 @@
+if not l then l = {} end
+l.name = 'Shady.Manager'
+l.windowname = 'Plugin Manager'
+l.shorthelp = 'Opens the Plugin Manager'
+--l.help = ''
+l.apply = 'Apply'
+l.reload = 'Reload'
+l.refresh = 'Refresh List'
+l.rlhelp = 'Reload plugins'
