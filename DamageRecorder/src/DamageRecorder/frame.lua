@@ -15,6 +15,7 @@ function initMainFrame()
 	DR["win"]:SetPosition(screenWidth / 2 - 100, screenHeight / 2 - 50);
 	DR["win"]:SetSize(300, 75);
 	--DR["win"]:SetOpacity(0.5);
+	
 	DR["win"]:SetWantsKeyEvents(true);
 	DR["win"]:SetText(L["winText"].." "..PN);
 	DR["win"].Closing = function( sender, args )
