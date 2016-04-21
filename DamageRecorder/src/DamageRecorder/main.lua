@@ -12,6 +12,7 @@ Write = Turbine.Shell.WriteLine;
 Version = Plugins["DamageRecorder"]:GetVersion();
 Player = Turbine.Gameplay.LocalPlayer.GetInstance();
 PN = Player:GetName();
+
 Locale = "en";
 if Turbine.Shell.IsCommand("hilfe") then
 	Locale = "de";

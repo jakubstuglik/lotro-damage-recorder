@@ -7,8 +7,10 @@ import "Turbine.UI.Lotro";
 import (AppDir.."color");
 import (AppDir.."logic");
 
+
 -- FIXME JS Set component sizes based on width of the text within with some upper border
 function initMainFrame()
+
 	DR["win"] = Turbine.UI.Lotro.Window();
 	DR["win"]:SetPosition(screenWidth / 2 - 100, screenHeight / 2 - 50);
 	DR["win"]:SetSize(300, 75);
