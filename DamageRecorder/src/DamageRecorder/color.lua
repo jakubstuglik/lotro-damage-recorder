@@ -32,3 +32,4 @@ Color["TurineOrange"] = Turbine.UI.Color( 1, 190/255, 148/255, 0 );
 Color["TurbineLightYellow"] = Turbine.UI.Color( 1, 232/255, 229/255, 174/255 );
 Color["TurbineGrey"] = Turbine.UI.Color( 1, 0.5, 0.5, 0.5 );
 Color["none"] = Turbine.UI.Color();
+Color["a"] = Turbine.UI.Color(1, 0.9, 0.9, 0.9);
