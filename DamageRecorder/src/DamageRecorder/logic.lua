@@ -11,6 +11,7 @@ function combatChatReceived(sender, args)
 			numberIdxS = numberIdxS + 5;
 			local dmg = string.sub(rpMess,numberIdxS,numberIdxE);
 			dmg = string.gsub(dmg,",","");
+			
 			local dmgN = tonumber(dmg);
 			updateDmgVal(DR["dmgVal"] + dmgN);			
 		end
