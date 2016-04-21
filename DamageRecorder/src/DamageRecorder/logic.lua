@@ -14,7 +14,7 @@ function combatChatReceived(sender, args)
 			local dmgN = tonumber(dmg);
 			updateDmgVal(DR["dmgVal"] + dmgN);			
 		end
-		-- FIXME Locale				
+		-- FIXME Locale	21.04.2016			
 	end;
 end;
 
