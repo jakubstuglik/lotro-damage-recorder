@@ -8,4 +8,5 @@ L["cmdToggleVisibility"] = "vis";
 L["winText"] = "DR for";
 L["dmgValLblText"] = "Overall damage dealt:";
 L["dmgResetButtonText"] = "Reset damage";
+L["testText"] = "Test text";
 
