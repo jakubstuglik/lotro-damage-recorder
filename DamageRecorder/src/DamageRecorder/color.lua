@@ -9,6 +9,7 @@ Color["nicegreen"] = Turbine.UI.Color( 0.33, 0.66, 0.33 );
 Color["red"] = Turbine.UI.Color( 1, 0, 0 );
 Color["grey"] = Turbine.UI.Color( 0.5, 0.5, 0.5 );
 Color["lightgrey"] = Turbine.UI.Color( 0.5, 0.5, 0.5, 0.5 );
+fixmer dupa
 Color["lightgrey1"] = Turbine.UI.Color( 0.4, 0.4, 0.4);
 Color["verylightgrey"] = Turbine.UI.Color( 0.05, 0.5, 0.5, 0.5 );
 Color["darkgrey"] = Turbine.UI.Color( 0.1, 0.1, 0.1 );
